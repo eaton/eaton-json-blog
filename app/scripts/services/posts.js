@@ -1,16 +1,14 @@
 'use strict';
 
-angular.module('appApp')
-  .factory('posts', function () {
-    // Service logic
-    // ...
-
-    var meaningOfLife = 42;
+angular.module('eatonJsonBlogApp')
+  .factory('$posts', ['$resource', function ($resource) {
+    var serviceUrl = 'json/posts.json';
 
     // Public API here
-    return {
-      someMethod: function () {
-        return meaningOfLife;
+    return $resource(serviceUrl, {}, {
+      'query' : {
+        method: 'GET',
+        isArray: true
       }
-    };
-  });
+    });
+  }]);
