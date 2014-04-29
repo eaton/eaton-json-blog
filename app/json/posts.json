@@ -1,17 +1,17 @@
 [
   {
     "slug" : "my_first_post",
-    "name" : "My First Post",
+    "title" : "My First Post",
     "body" : "<p>This is my first post.</p><p>You can tell it's my first because here it is.</p>"
   },
   {
     "slug" : "my_second_post",
-    "name" : "My Second Post",
+    "title" : "My Second Post",
     "body" : "<p>This is my second post.</p> <p>Here it is.</p>"
   },
   {
     "slug" : "and_my_third_post",
-    "name" : "And This Is My Third Post",
+    "title" : "And This Is My Third Post",
     "body" : "<p>Not to forget my third post.</p>"
   }
 ]
