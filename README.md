@@ -1,11 +1,11 @@
 # @eaton's json blog
 
 1. Download and install [Node](http://nodejs.org)
-1. At the command line install [Yeoman](http://yeoman.io), [Bower](http://bower.io) and [Grunt](http://gruntjs.com) globally by typing `sudo npm install -g yo bower grunt-cli`
-1. Clone or download and unzip this repository
-1. Open a command line at this folder and type `npm install && bower install` to install all dependencies
-1. Start the development server by typing `grunt serve`
-1. Open a browser to [http://127.0.0.1:9000/](http://127.0.0.1:9000/)
+1. At the command line install [Bower](http://bower.io) and [Grunt](http://gruntjs.com) globally by typing `sudo npm install -g bower grunt-cli`
+1. Clone (or download and unzip) this repository
+1. Open a command line at this folder and type `npm install && bower install` to install all of its dependencies
+1. Start this example's development server by typing `grunt serve`
+1. Open a browser to [http://127.0.0.1:9000](http://127.0.0.1:9000)
 
 ## License
 
